@@ -3,4 +3,4 @@
 # "Deixe-me ver se consigo um Subaru para voce"
 
 carro = input("Qual o carro que desejas: ")
-print("Deixe-me ver se consigo um "+carro+" para você")
+print(f"Deixe-me ver se consigo um {carro} para você")

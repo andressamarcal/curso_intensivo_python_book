@@ -6,7 +6,7 @@ new_users = ['joao','PEDRO','lucas','Ana','marina']
 for user in new_users:
     
     if user in current_users or user.lower() in current_users or user.lower() in current_users or user.title() in current_users:
-            print(user+ ' usuario existente, forneça um novo nome de usuario')
-    
+        print(f'{user} usuario existente, forneça um novo nome de usuario')
+
     else:
-        print("Olá " + user + " ,seu nome esta diponivel para uso.")
+        print(f"Olá {user} ,seu nome esta diponivel para uso.")
