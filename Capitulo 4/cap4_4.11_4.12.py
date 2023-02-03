@@ -5,6 +5,6 @@ pizzas.append("marguerita")
 friend_pizzas.append("mista")
 
 for i in pizzas:
-    print("Minhas pizzas favoritas são: " +i.title())
+    print(f"Minhas pizzas favoritas são: {i.title()}")
 for x in friend_pizzas:
-    print("As pizzas favoritas do meu amigo são: " +x.title())
+    print(f"As pizzas favoritas do meu amigo são: {x.title()}")

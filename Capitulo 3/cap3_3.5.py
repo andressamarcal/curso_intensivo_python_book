@@ -5,8 +5,8 @@ print("Wesley não poderá comparecer ao jantar.")
 
 peoples[2] = "felipe"
 
-message = "Hi " + peoples[0] + " welcome to my dinner!"
-message2 = "Hi " + peoples[1] + " welcome to my dinner!"
-message3 =  "Hi " + peoples[2] + " welcome to my dinner!"
+message = f"Hi {peoples[0]} welcome to my dinner!"
+message2 = f"Hi {peoples[1]} welcome to my dinner!"
+message3 = f"Hi {peoples[2]} welcome to my dinner!"
 
 print(message, message2, message3)

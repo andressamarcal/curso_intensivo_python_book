@@ -6,13 +6,13 @@ print("Informamos que haverá mais espaços disponíveis nas mesas para o jantar
 
 peoples[2] = "felipe"
 
-peoples.insert (0, 'alex') 
+peoples.insert (0, 'alex')
 peoples.insert (2, 'gil')
 peoples.append('swelton') 
 
 convites = peoples
 
-message = "Hi " + (str(convites)) + " welcome to my dinner!"
+message = f"Hi {convites} welcome to my dinner!"
 #message2 = "Hi " + peoples[1] + " welcome to my dinner!"
 #message3 =  "Hi " + peoples[2] + " welcome to my dinner!"
 
